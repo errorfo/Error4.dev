@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // 🔥 SKILL BAR ANIMATION
   const bars = document.querySelectorAll(".progress");
 
   function animateBars() {
@@ -12,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 🔥 SCROLL REVEAL
   const reveals = document.querySelectorAll(".reveal");
 
   function revealElements() {
@@ -24,13 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 🔥 SCROLL EVENT (single listener only)
   window.addEventListener("scroll", () => {
     animateBars();
     revealElements();
   });
 
-  // 🔥 PARTICLES (safe)
   if (window.particlesJS) {
     particlesJS("particles-js", {
       particles: {
@@ -42,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 🔥 CURSOR
   const cursor = document.querySelector(".cursor");
   if (cursor) {
     document.addEventListener("mousemove", (e) => {
@@ -51,7 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 🔥 TYPING EFFECT
   const typingEl = document.getElementById("typing");
   if (typingEl) {
     const text = ["Ovais Thoker", "Error4", "Web Developer", "Cyber Enthusiast"];
@@ -79,7 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
     type();
   }
 
-  // 🔥 INITIAL TRIGGER (important!)
   animateBars();
   revealElements();
 
