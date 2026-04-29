@@ -9,14 +9,12 @@
 
 <body>
 
-<!-- PARTICLES BACKGROUND -->
 <div id="particles-js"></div>
 
-<!-- NAVBAR -->
 <header>
   <h2 class="logo">
     <a href="#">
-      <img src="pic2.png" alt="logo">
+      <img src="pic2.png">
       <span>Error4.Dev</span>
     </a>
   </h2>
@@ -29,54 +27,61 @@
   </nav>
 </header>
 
-<!-- HERO -->
 <section class="hero">
   <h1>Hi, I'm <span id="typing"></span></h1>
-  <h2>You Can Call Me <b>Error4</b></h2>
-  <p><b>Web Developer & Cyber Enthusiast</b></p>
-  <a href="#projects" class="btn">Explore My Work</a>
+
+  <h2>Full Stack Developer • Cybersecurity Focused</h2>
+
+  <p>
+    I build secure, high-performance web applications that solve real business problems.
+  </p>
+
+  <p style="margin-top:10px; color:#aaa;">
+    ✔ 10+ Projects • ✔ Freelance Experience • ✔ Open to Work
+  </p>
+
+  <a href="#projects" class="btn">View My Work</a>
+  <a href="#contact" class="btn-outline">Hire Me</a>
 </section>
 
-<!-- ABOUT -->
 <section id="about" class="reveal">
   <h2>About Me</h2>
 
   <div class="about-container">
 
-    <!-- LEFT -->
     <div class="profile">
-      <a href="pic.png" target="_blank">
-        <img src="assets/pic.png" alt="profile">
-      </a>
+      <img src="pic.png">
       <h3>Ovais Thoker</h3>
-      <p style="margin-top:10px; color:#5eead4;">
-        🚀 I build fast, secure & modern websites that help businesses grow.
-      </p>
+      <p style="color:#5eead4;">I build modern, secure & scalable web apps.</p>
     </div>
 
-    <!-- RIGHT -->
     <div class="biodata">
-      <p><b>Full Name:</b> Ovais Ahmad Thoker</p>
-      <p><b>Nick Name:</b> Error4</p>
-      <p><b>Role:</b> Full-stack Developer</p>
-      <p><b>Specialization:</b> Web Dev + Cybersecurity</p>
-      <p><b>Experience:</b> Freelance (2024 - Present)</p>
-      <p><b>Location:</b> Kashmir, India</p>
-      <p><b>Availability:</b> Open to Work</p>
-      <p><b>Core Skills:</b> HTML, CSS, JS, React, Python</p>
-      <p><b>Tools:</b> Git, Linux, Kali</p>
+      <p style="margin-bottom: 10px;"><b>Full Name:</b> Ovais Ahmad Thoker</p>
+      <p style="margin-bottom: 10px;"><b>Role:</b> Full Stack Developer</p>
+      <p style="margin-bottom: 10px;"><b>Specialization:</b> Web Dev + Cybersecurity</p>
+      <p style="margin-bottom: 10px;"><b>Experience:</b> Freelance</p>
+      <p style="margin-bottom: 10px;"><b>Core Skills:</b> HTML, CSS, JS, React, Python</p>
+      <p style="margin-bottom: 10px;"><b>Tools:</b> Git, Linux, Kali</p>
     </div>
 
   </div>
 </section>
 
-<!-- SKILLS -->
+<section id="why" class="reveal">
+  <h2>Why Choose Me</h2>
+
+  <div class="why-container">
+    <div class="why-box">⚡ Fast Delivery</div>
+    <div class="why-box">🔒 Secure Code</div>
+    <div class="why-box">💡 Problem Solver</div>
+  </div>
+</section>
+
 <section id="skills" class="reveal">
   <h2>My Skills</h2>
 
   <div class="skills-container">
 
-    <!-- BACKEND -->
     <div class="skill-box">
       <h3>Backend</h3>
 
@@ -91,12 +96,16 @@
       </div>
 
       <div class="skill">
-        <p>SQL</p>
+        <p>Node.js</p>
+        <div class="bar"><div class="progress" data-width="80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>SQL / Database</p>
         <div class="bar"><div class="progress" data-width="80%"></div></div>
       </div>
     </div>
 
-    <!-- FRONTEND -->
     <div class="skill-box">
       <h3>Frontend</h3>
 
@@ -111,14 +120,18 @@
       </div>
 
       <div class="skill">
-        <p>React</p>
+        <p>React.js</p>
         <div class="bar"><div class="progress" data-width="80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>UI / UX Design</p>
+        <div class="bar"><div class="progress" data-width="85%"></div></div>
       </div>
     </div>
 
-    <!-- CYBER (CENTERED NOW) -->
     <div class="cyber">
-      <h3>Cyber Security Skills</h3>
+      <h3>Cyber Security</h3>
 
       <div class="skill">
         <p>Web Security (XSS, SQLi)</p>
@@ -126,20 +139,29 @@
       </div>
 
       <div class="skill">
-        <p>CTF / Bug Hunting</p>
+        <p>Bug Bounty</p>
         <div class="bar"><div class="progress" data-width="80%"></div></div>
       </div>
 
       <div class="skill">
-        <p>Linux / Kali</p>
+        <p>CTF Challenges</p>
+        <div class="bar"><div class="progress" data-width="85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>OWASP Top 10</p>
         <div class="bar"><div class="progress" data-width="75%"></div></div>
+      </div>
+
+      <div class="skill">
+        <p>Web App Testing</p>
+        <div class="bar"><div class="progress" data-width="80%"></div></div>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- PROJECTS -->
 <section id="projects" class="reveal">
   <h2>My Projects</h2>
 
@@ -148,75 +170,93 @@
     <a href="https://ah-eyecare.onrender.com/" target="_blank" class="card">
       <img src="pic3.jpeg">
       <div class="overlay">
-        <h3>Eye Care Website</h3>
-        <p>Full Stack</p>
-        <span class="btn-small">Live →</span>
+        <div>
+          <h3>A.H EYECARE</h3>
+          <p>shopping • Full Stack</p>
+          <div class="project-btns">
+            <span class="btn-small">Live</span>
+          </div>
+        </div>
       </div>
     </a>
-
     <a href="https://error4-digital-services.onrender.com/" target="_blank" class="card">
       <img src="pic4.jpeg">
       <div class="overlay">
-        <h3>Digital Services</h3>
-        <p>HTML/CSS/JS</p>
-        <span class="btn-small">View →</span>
+        <div>
+          <h3>digital services</h3>
+          <p>E-commerce • Full Stack</p>
+          <div class="project-btns">
+            <span class="btn-small">Live</span>
+          </div>
+        </div>
       </div>
     </a>
-
     <a href="https://minikart-8m3l.onrender.com/" target="_blank" class="card">
       <img src="pic5.jpeg">
       <div class="overlay">
-        <h3>MiniKart</h3>
-        <p>E-commerce</p>
-        <span class="btn-small">Shop →</span>
+        <div>
+          <h3>MiniKart</h3>
+          <p>E-commerce • Full Stack</p>
+          <div class="project-btns">
+            <span class="btn-small">Live</span>
+          </div>
+        </div>
       </div>
     </a>
-
     <a href="https://error4.onrender.com/" target="_blank" class="card">
       <img src="pic6.jpeg">
       <div class="overlay">
-        <h3>Portfolio</h3>
-        <p>Modern UI</p>
-        <span class="btn-small">Preview →</span>
+        <div>
+          <h3>Portfolio</h3>
+          <p>Portfolio • HTML/CSS</p>
+          <div class="project-btns">
+            <span class="btn-small">Live</span>
+          </div>
+        </div>
       </div>
     </a>
 
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="reveal">
-  <h2>Hire Me</h2>
+  <h2>Start a Project</h2>
+
+  <p style="color:#aaa;">
+    Let’s build something amazing together.
+  </p>
 
   <form action="https://formspree.io/f/mzdynwlg" method="POST" class="contact-form">
 
-    <h3>Let’s Work Together 🚀</h3>
-  
     <div class="input-group">
       <input type="text" name="name" required>
       <label>Your Name</label>
     </div>
-  
+
     <div class="input-group">
       <input type="email" name="email" required>
       <label>Your Email</label>
     </div>
-  
+
     <div class="input-group">
       <textarea name="message" required></textarea>
       <label>Your Message</label>
     </div>
-  
-    <button type="submit">Hire Me</button>
-  
+
+    <button type="submit">Start Project 🚀</button>
+
   </form>
 </section>
 
-<!-- SCRIPTS -->
+<footer style="text-align:center; padding:30px; color:#aaa;">
+  © 2026 Error4 • Built by Ovais
+</footer>
+
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="script.js"></script>
-<a href="https://wa.me/9541232723?text=Hi%20I%20want%20a%20website" target="_blank" class="whatsapp-btn">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+
+<a href="https://wa.me/9541232723" target="_blank" class="whatsapp-btn">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
 </a>
 
 </body>
